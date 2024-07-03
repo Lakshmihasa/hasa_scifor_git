@@ -1,5 +1,4 @@
-import winsound  # for Windows systems
-# If you're using Linux or macOS, you may want to use another library such as playsound
+import winsound  
 
 def play_sound(animal):
     if animal.lower() == 'cat':
@@ -15,7 +14,7 @@ def play_sound(animal):
         print(f"Sorry, I don't know the sound of '{animal}'.")
 
 def main():
-    print("Welcome to the Animal Sound Player!")
+    print("Welcome to the  Awesome Animal Sound Player!")
     print("=================================")
     print("Choose an animal to hear its sound:")
     print("1. Cat")
